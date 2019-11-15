@@ -6,6 +6,7 @@ docker-nativefier
 wget https://web.telegram.org/img/logo_share.png -O telegram.png
 docker run --rm \
     ghostry/nativefier \
+    nativefier \
     -m --name 'telegram' \
     --p linux -a x64 \
     --icon /src/telegram.png \

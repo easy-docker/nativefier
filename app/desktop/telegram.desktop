@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Telegram
+Comment=Telegram IM
+TryExec=/opt/telegram-linux-x64/telegram
+Exec=/opt/telegram-linux-x64/telegram %U
+Icon=/opt/telegram-linux-x64/resources/app/icon.png
+Terminal=false
+StartupNotify=false
+Type=Application
+Categories=Application;
