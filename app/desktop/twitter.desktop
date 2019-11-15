@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Twitter
+Comment=Twitter
+TryExec=/opt/twitter-linux-x64/twitter
+Exec=/opt/twitter-linux-x64/twitter %U
+Icon=/opt/twitter-linux-x64/resources/app/icon.png
+Terminal=false
+StartupNotify=false
+Type=Application
+Categories=Application;

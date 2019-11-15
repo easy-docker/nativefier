@@ -11,14 +11,13 @@ docker run --rm\
     --icon /src/icon/$name.png \
     --single-instance \
     --tray \
-    --min-width 200 \
-    --min-height 200 \
+    --min-width 400 \
+    --min-height 400 \
     --disk-cache-size 52428800 \
     "$url" \
     /src/
 sudo rm -rf /opt/$name-linux-x64
-sudo rm /opt/$name.desktop
 sudo rm /usr/share/applications/$name.desktop
-sudo mv $name-linux-x64 /opt/
-sudo cp -av desktop/$name.desktop /opt/$name.desktop
-sudo ln -s /opt/$name.desktop /usr/share/applications/$name.desktop
+sudo mv -v $name-linux-x64 /opt/
+sudo cp -av desktop/$name.desktop /opt/$name-linux-x64/$name.desktop
+sudo ln -s /opt/$name-linux-x64/$name.desktop /usr/share/applications/$name.desktop
