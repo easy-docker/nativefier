@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=Skype
-Comment=Rocketchat Skype
+Comment=Skype IM
 TryExec=/opt/skype-linux-x64/skype
 Exec=/opt/skype-linux-x64/skype %U
 Icon=/opt/skype-linux-x64/resources/app/icon.png
-Terminal=false  #软件打开时是否启动终端
+Terminal=false
 StartupNotify=false
 Type=Application
 Categories=Application;
