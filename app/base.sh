@@ -14,10 +14,12 @@ docker run --rm\
     --min-width 400 \
     --min-height 400 \
     --disk-cache-size 52428800 \
+    --file-download-options '{"saveAs":true}' \
     "$url" \
     /src/
 sudo rm -rf /opt/$name-linux-x64
 sudo rm /usr/share/applications/$name.desktop
-sudo mv -v $name-linux-x64 /opt/
-sudo cp -av desktop/$name.desktop /opt/$name-linux-x64/$name.desktop
+sudo mv $name-linux-x64 /opt/
+sudo cp -a desktop/$name.desktop /opt/$name-linux-x64/$name.desktop
 sudo ln -s /opt/$name-linux-x64/$name.desktop /usr/share/applications/$name.desktop
+echo 'done'
