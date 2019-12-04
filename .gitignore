@@ -1,2 +1,6 @@
 
 /docker-nativefier.sublime-workspace
+
+/app/*.zip
+
+/app/SHASUMS256.txt-*
