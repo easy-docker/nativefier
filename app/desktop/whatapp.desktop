@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=WhatApp
+Comment=WhatApp
+TryExec=/opt/whatapp-linux-x64/whatapp
+Exec=/opt/whatapp-linux-x64/whatapp %U
+Icon=/opt/whatapp-linux-x64/resources/app/icon.png
+Terminal=false
+StartupNotify=false
+Type=Application
+Categories=Application;
