@@ -4,3 +4,4 @@
 /app/*.zip
 
 /app/SHASUMS256.txt-*
+/app/httpsgithub.*SHASUMS256.txt/

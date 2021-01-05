@@ -11,6 +11,7 @@ docker run --rm\
     --icon /src/icon/$name.png \
     --single-instance \
     --tray \
+    --verbose \
     --min-width 400 \
     --min-height 400 \
     --disk-cache-size 52428800 \
