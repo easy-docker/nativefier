@@ -7,7 +7,7 @@ docker run --rm\
     ghostry/nativefier \
     nativefier \
     -m --name "$name" \
-    --p linux -a x64 \
+    -p linux -a x64 \
     --icon /src/icon/$name.png \
     --single-instance \
     --tray \
@@ -18,7 +18,7 @@ docker run --rm\
     "$url" \
     /src/
 sudo rm -rf /opt/$name-linux-x64
-sudo rm /usr/share/applications/$name.desktop
+sudo rm ~/.local/share/applications/$name.desktop
 sudo mv $name-linux-x64 /opt/
 sudo cp -a desktop/$name.desktop /opt/$name-linux-x64/$name.desktop
 ln -s /opt/$name-linux-x64/$name.desktop ~/.local/share/applications/$name.desktop
