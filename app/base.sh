@@ -3,7 +3,6 @@ name=$1
 url=$2
 docker run --rm\
     -v $PWD:/src \
-    -v $PWD:/root/.cache/electron \
     ghostry/nativefier \
     nativefier \
     -m --name "$name" \
