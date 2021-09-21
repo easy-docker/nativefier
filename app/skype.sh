@@ -3,7 +3,6 @@ name='skype'
 url='https://web.skype.com/'
 docker run --rm\
     -v $PWD:/src \
-    -v $PWD:/root/.cache/electron \
     ghostry/nativefier \
     nativefier \
     -m --name "$name" \
