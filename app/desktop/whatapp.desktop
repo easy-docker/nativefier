@@ -2,8 +2,8 @@
 Encoding=UTF-8
 Name=WhatApp
 Comment=WhatApp
-TryExec=/opt/whatapp-linux-x64/whatapp -no-sandbox
-Exec=/opt/whatapp-linux-x64/whatapp -no-sandbox %U
+TryExec=/opt/whatapp-linux-x64/whatapp
+Exec=/opt/whatapp-linux-x64/whatapp %U
 Icon=/opt/whatapp-linux-x64/resources/app/icon.png
 Terminal=false
 StartupNotify=false

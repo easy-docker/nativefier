@@ -2,8 +2,8 @@
 Encoding=UTF-8
 Name=Messenger
 Comment=Messenger IM
-TryExec=/opt/messenger-linux-x64/messenger -no-sandbox
-Exec=/opt/messenger-linux-x64/messenger -no-sandbox %U
+TryExec=/opt/messenger-linux-x64/messenger
+Exec=/opt/messenger-linux-x64/messenger %U
 Icon=/opt/messenger-linux-x64/resources/app/icon.png
 Terminal=false
 StartupNotify=false

@@ -2,8 +2,8 @@
 Encoding=UTF-8
 Name=Skype
 Comment=Skype IM
-TryExec=/opt/skype-linux-x64/skype -no-sandbox
-Exec=/opt/skype-linux-x64/skype -no-sandbox %U
+TryExec=/opt/skype-linux-x64/skype
+Exec=/opt/skype-linux-x64/skype %U
 Icon=/opt/skype-linux-x64/resources/app/icon.png
 Terminal=false
 StartupNotify=false
